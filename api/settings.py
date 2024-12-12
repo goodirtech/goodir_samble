@@ -77,7 +77,7 @@ EMAIL_HOST_PASSWORD = 'zvsc nvjj issr wxej'  # Your Gmail app password
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 DJOSER = {
     # 'PASSWORD_RESET_CONFIRM_URL': 'books/auth/users/reset_password_confirm/{uid}/{token}/',
-   'PASSWORD_RESET_CONFIRM_URL': 'password-reset/{uid}/{token}/',
+   'PASSWORD_RESET_CONFIRM_URL': 'password-reset/confirm/{uid}/{token}/',
     # 'BASE_URL': 'http://localhost:5300',  # Optional
 }
 DOMAIN = 'kaamiltechnician.com'
@@ -184,7 +184,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Change this for production
-    "https://kaamiltechnician.com","https://www.kaamiltechnician.com"
+    "https://kaamiltechnician.com","https://www.kaamiltechnician.com","https://test.goodirtechnology.com",
 ]
 ALLOWED_HOSTS = [
     '51.20.127.111',  # Replace with your AWS public IP
