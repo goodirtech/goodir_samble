@@ -190,7 +190,7 @@ ALLOWED_HOSTS = [
     '51.20.127.111',  # Replace with your AWS public IP
     'localhost',      # For local access
     '127.0.0.1',      # For local development
-    'api.kaamiltechnician.com'
+    'api.kaamiltechnician.com',
     "goodir-samble.onrender.com"
 ]
 MEDIA_URL = '/media/'
