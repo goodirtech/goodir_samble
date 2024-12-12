@@ -191,6 +191,7 @@ ALLOWED_HOSTS = [
     'localhost',      # For local access
     '127.0.0.1',      # For local development
     'api.kaamiltechnician.com'
+    "goodir-samble.onrender.com"
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
